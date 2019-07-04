@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - google-cloud > @google-cloud/storage > @google-cloud/common > google-auto-auth > async > lodash:
+        patched: '2019-07-04T08:03:31.207Z'
+    - async > lodash:
+        patched: '2019-07-04T08:03:31.207Z'
+    - google-cloud > @google-cloud/compute > async > lodash:
+        patched: '2019-07-04T08:03:31.207Z'
+    - google-cloud > @google-cloud/datastore > google-auto-auth > async > lodash:
+        patched: '2019-07-04T08:03:31.207Z'
+    - google-cloud > @google-cloud/spanner > split-array-stream > async > lodash:
+        patched: '2019-07-04T08:03:31.207Z'
+    - google-cloud > @google-cloud/spanner > checkpoint-stream > split-array-stream > async > lodash:
+        patched: '2019-07-04T08:03:31.207Z'
+    - google-cloud > @google-cloud/datastore > google-gax > lodash:
+        patched: '2019-07-04T08:03:31.207Z'
+    - google-cloud > @google-cloud/compute > gce-images > google-auto-auth > async > lodash:
+        patched: '2019-07-04T08:03:31.207Z'
+    - google-cloud > @google-cloud/translate > @google-cloud/common > split-array-stream > async > lodash:
+        patched: '2019-07-04T08:03:31.207Z'
+    - google-cloud > @google-cloud/speech > google-gax > google-auto-auth > async > lodash:
+        patched: '2019-07-04T08:03:31.207Z'
+    - google-cloud > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash:
+        patched: '2019-07-04T08:03:31.207Z'
+    - google-cloud > @google-cloud/bigtable > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > async > lodash:
+        patched: '2019-07-04T08:03:31.207Z'
+    - google-cloud > @google-cloud/bigtable > @google-cloud/common-grpc > @google-cloud/common > split-array-stream > async > lodash:
+        patched: '2019-07-04T08:03:31.207Z'
