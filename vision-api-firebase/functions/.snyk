@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > split-array-stream > async > lodash':
+        patched: '2019-07-04T03:18:10.338Z'
+    - firebase-functions > lodash:
+        patched: '2019-07-04T03:18:10.338Z'
+    - '@google-cloud/vision > async > lodash':
+        patched: '2019-07-04T03:18:10.338Z'
+    - google-cloud > @google-cloud/logging > google-gax > lodash:
+        patched: '2019-07-04T03:18:10.338Z'
+    - google-cloud > @google-cloud/storage > async > lodash:
+        patched: '2019-07-04T03:18:10.338Z'
+    - google-cloud > @google-cloud/spanner > split-array-stream > async > lodash:
+        patched: '2019-07-04T03:18:10.338Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > async > lodash':
+        patched: '2019-07-04T03:18:10.338Z'
+    - google-cloud > @google-cloud/datastore > google-auto-auth > async > lodash:
+        patched: '2019-07-04T03:18:10.338Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > async > lodash':
+        patched: '2019-07-04T03:18:10.338Z'
+    - '@google-cloud/vision > @google-cloud/common > split-array-stream > async > lodash':
+        patched: '2019-07-04T03:18:10.338Z'
+    - '@google-cloud/vision > google-gax > lodash':
+        patched: '2019-07-04T03:18:10.338Z'
+    - google-cloud > @google-cloud/storage > @google-cloud/common > google-auto-auth > async > lodash:
+        patched: '2019-07-04T03:18:10.338Z'
+    - google-cloud > @google-cloud/spanner > @google-cloud/common > split-array-stream > async > lodash:
+        patched: '2019-07-04T03:18:10.338Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > async > lodash':
+        patched: '2019-07-04T03:18:10.338Z'
+    - google-cloud > @google-cloud/spanner > checkpoint-stream > split-array-stream > async > lodash:
+        patched: '2019-07-04T03:18:10.338Z'
+    - google-cloud > @google-cloud/logging > google-gax > google-auto-auth > async > lodash:
+        patched: '2019-07-04T03:18:10.338Z'
+    - google-cloud > @google-cloud/compute > gce-images > google-auto-auth > async > lodash:
+        patched: '2019-07-04T03:18:10.338Z'
+    - google-cloud > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash:
+        patched: '2019-07-04T03:18:10.338Z'
+    - google-cloud > @google-cloud/bigtable > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > async > lodash:
+        patched: '2019-07-04T03:18:10.338Z'
+    - google-cloud > @google-cloud/bigtable > @google-cloud/common-grpc > @google-cloud/common > split-array-stream > async > lodash:
+        patched: '2019-07-04T03:18:10.338Z'
